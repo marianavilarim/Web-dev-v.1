@@ -1,17 +1,31 @@
-.table{
-    margin-top: 32px;
-    background: origin 24px;;
-    border: 2px;
-    color: rgb(53, 53, 53);
-}
-.table,td,th{
-    border: 1px solid;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
 }
 
+.table {
+  margin-top: 32px;
+  background: origin 24px;
+  border: 2px solid;
+  color: #bc6dd9;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: transparent; 
+  border-collapse: collapse;
+}
+
+.table td, .table th {
+  border: 1px solid #BB6BD9;
+  padding: 16px;
+  text-align: center; 
+  color: #BB6BD9;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
 body {
     background-color: rgb(0, 0, 0);
   }
@@ -48,9 +62,9 @@ body {
     margin-bottom: 40px;
 }
 button {
-    color: #bb6bd9;
+    color: #000000;
     text-align: center;
-    background-color: #000000;
+    background-color: #bb6bd9;
     align-items: center;
     border-color: #bb6bd9;
     border-width: 2px;
@@ -80,4 +94,22 @@ button {
 .topnav a:hover {
   background-color: #3b3b3b;
   color: rgb(172, 130, 172);
+}
+.header { grid-area: header; }
+.main { grid-area: main; }
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main main main';
+  gap: 16px;
+  background-color: #f321d000;
+  padding: 16px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
