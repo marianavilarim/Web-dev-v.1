@@ -14,6 +14,7 @@
   text-align: center;
   background: transparent; 
   border-collapse: collapse;
+  margin-bottom: 80px;
 }
 
 .table td, .table th {
@@ -52,7 +53,7 @@ body {
     margin-left: 56px;
     margin-right: 56px;
   }
-  img  {
+  img.all  {
     margin-left: auto;
     margin-right: auto;
     display:block;
@@ -62,6 +63,14 @@ body {
     margin-bottom: 40px;
 }
 
+img.linkedin  {
+  margin-left: 0px;
+  margin-right: 0px;
+  display:block;
+  resize: horizontal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 button.all {
   color: #bc6dd9;
   text-align: center;
@@ -109,7 +118,8 @@ margin-top: 0px;
   display: grid;
   grid-template-areas:
     'header header header header header header'
-    'main main main main main main';
+    'menu main main main main main'
+    'footer footer footer footer footer footer';
   gap: 16px;
   background-color: #f321d000;
   padding: 16px;
