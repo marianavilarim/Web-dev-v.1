@@ -54,6 +54,7 @@ body {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 button.all {
     color: #bc6dd9;
     text-align: center;
@@ -70,7 +71,7 @@ button.all {
 
 button.linkedin {
   color: #000000;
-  background-color: rgb(0, 0, 0);
+  background-color: #000000;
   align-items: center;
   border-width: 0px;
   margin-top: 0px;
@@ -98,10 +99,14 @@ button.linkedin {
   color: rgb(172, 130, 172);
 }
 .footer {
-  background-color: #303030; 
+  background-color:  #000000; 
+
+}
+.textfooter{
   color: #fff; 
   padding: 20px; 
   text-align: center; 
-  font-weight: bold;
   margin-top: 48px;
+  font-size: 14px;
+
 }
