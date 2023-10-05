@@ -78,7 +78,7 @@ button {
 
 .topnav {
   overflow: hidden;
-  background-color: #303030;
+  background-color: #360363;
   align-items: center;
 }
 .topnav a {
@@ -92,7 +92,7 @@ button {
   align-items: center;
 }
 .topnav a:hover {
-  background-color: #3b3b3b;
+  background-color: #592883;
   color: rgb(172, 130, 172);
 }
 .header { grid-area: header; }
