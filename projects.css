@@ -97,3 +97,11 @@ button {
   padding: 20px 0;
   font-size: 30px;
 }
+.footer {
+  background-color: #303030; 
+  color: #fff; 
+  padding: 20px; 
+  text-align: center; 
+  font-weight: bold;
+  margin-top: 48px;
+}
