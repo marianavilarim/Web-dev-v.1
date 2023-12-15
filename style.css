@@ -1,10 +1,11 @@
 body {
-    background-color: rgb(0, 0, 0);
-  }
-  .header { grid-area: header; }
-  .main { grid-area: main; }
-  .footer { grid-area: footer; }
-  
+  background-color: rgb(0, 0, 0);
+  color: #BB6BD9;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
   .grid-container {
     display: grid;
     grid-template-areas:
@@ -118,4 +119,101 @@ button.linkedin {
   margin-top: 10px;
   font-size: 14px;
 
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+      font-size: 24px;
+      margin-top: 20px;
+      margin-bottom: 16px;
+  }
+
+  .div1 {
+      margin: 0 8px;
+  }
+
+  img.all {
+      max-width: 100%;
+      height: auto;
+      border-radius: 1cm;
+      border-style: dashed;
+      background: -moz-linear-gradient(border-style);
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+
+  button.all {
+      margin-top: 15px;
+  }
+
+  .textfooter {
+      font-size: 12px;
+      padding: 10px;
+      margin-top: 5px;
+  }
+}
+
+/* Media Query para telas entre 601 e 900 pixels de largura (médias) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  h1 {
+      font-size: 28px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  .div1 {
+      margin: 0 16px;
+  }
+
+  img.all {
+      max-width: 100%;
+      height: auto;
+      border-radius: 1cm;
+      border-style: dashed;
+      background: -moz-linear-gradient(border-style);
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  button.all {
+      margin-top: 20px;
+  }
+
+  .textfooter {
+      font-size: 14px;
+      padding: 15px;
+      margin-top: 10px;
+  }
+}
+
+/* Media Query para telas maiores que 900 pixels de largura (grandes) */
+@media only screen and (min-width: 901px) {
+  h1 {
+      font-size: 32px;
+      margin-top: 40px;
+      margin-bottom: 30px;
+  }
+
+  .div1 {
+      margin: 0 24px;
+  }
+
+  img.all {
+      max-width: 100%;
+      height: auto;
+      border-radius: 1cm;
+      border-style: dashed;
+      background: -moz-linear-gradient(border-style);
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+
+  button.all {
+      margin-top: 30px;
+  }
+
+  .textfooter {
+      font-size: 16px;
+      padding: 20px;
+      margin-top: 15px;
+  }
 }

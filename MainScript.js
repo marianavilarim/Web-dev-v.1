@@ -1,3 +1,25 @@
+fetch('data.json')
+    .then(response => response.json())
+    .then(data => {
+      console.log(data.personalInfo.FullName);
+      console.log("Five = " + data.numbers.w);
+  
+      const button = document.getElementById("Buttoncickable");
+      if (button) {
+        button.innerHTML = data.greeting;
+      }
+  
+      data.projects.forEach(project => {
+        const buttonProject = document.getElementById(project.button);
+        if (buttonProject) {
+          buttonProject.addEventListener('click', function() {
+            imageRender1.src = project.image;
+            console.log(project.log);
+          });
+        }
+      });
+    })
+    .catch(error => console.error('Error loading JSON:', error));
 var FirstName="Mariana";
 var LastName= "Vilarim";
 var FullName= FirstName + " " + LastName;

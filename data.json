@@ -1,0 +1,20 @@
+{
+    "personalInfo": {
+      "FirstName": "Mariana",
+      "LastName": "Vilarim",
+      "FullName": "Mariana Vilarim"
+    },
+    "numbers": {
+      "x": 2,
+      "y": 3,
+      "w": 5
+    },
+    "greeting": "hey",
+    "projects": [
+      { "button": "Render1", "image": "./Images/Render2.jpg", "log": "Button Render 1 pressed" },
+      { "button": "Render2", "image": "./Images/9.jpg", "log": "Button Render 2 pressed" },
+      { "button": "Render3", "image": "./Images/13.jpg", "log": "Button Render 3 pressed" },
+      { "button": "Render4", "image": "./Images/7.jpg", "log": "Button Render 4 pressed" }
+    ]
+  }
+  
